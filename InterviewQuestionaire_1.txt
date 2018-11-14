@@ -1,0 +1,716 @@
+1. data structures comfort level and which project worked on
+	2. volatile and static difference
+	3. what are various sections in object file, and what each section contains
+	4. where does uninitialized data get placed in obj file, give example of uninitialized declaration
+	5. what value a global data have if not initialized
+	6. What considerations you will take while writing/designing your own malloc API
+	7. const int * and int * const -> difference
+	8. how will you find the endian-ness of system
+	9. what will be your approach if you are stuck in a piece of code/function
+	10. what are register types why are they used
+	11. what is difference between debug build and release build
+
+
+
+	1.       Difference btw Register and Volatile ?
+	2.       How will you Design malloc of your own ?
+	3.       What is Static fun and Static Variable ? 
+	4.       How to find the size of struct w/o sizeof operator ?
+	5.       Types of memory segment (What is BSS) ?
+	6.       How to corrupt a stack ?
+	7.       What is a difference between debug build and release build ?
+	8.       What is data alignment ?
+		
+
+
+
+	1.       Build environments worked like compilers.
+	2.       Different platforms from the same code base how to build?
+	3.       Single binaries to different target how it will work?
+	4.       Experience info in SCARCH Development experience ?
+	5.       C programming – static variable and static function
+	6.       Volatile and register variable different 
+	7.       When to use volatile
+	8.       Function pointer and how can be used 
+	9.       Malloc implementation and precautions
+	10.   What is UNION? And an use case?
+	11.   Debuggers worked on?
+	12.   Int * const  a and const int *a;
+
+
+
+
+
+	NAND Memory layout(Block/Page/Plane/Bank).				
+
+	How to address location on NAND. (based on flash controller design and configuration channel/bank/plane/block/page).				
+
+	Design specific question- memory allocation technique (dynamic /static allocation) for host data tranfer to NAND.				
+
+	current project specific question, related to how data gets trasfered from host to nand and role of my module.				
+
+
+
+
+
+				50K	
+				2L	
+
+
+				1.5 X4 	6L
+
+
+
+
+	·         how to identify particular number as negative
+	·         need to write a program to set the number of set bits upto number given number 'n'
+	·         given a number, count the number of setbits, without considering the size of integer(different architecture)
+	·         given a string, (string is a combination of A to Z), i need to remove 'B' and 'AC' combination in the given string i.e if the string is ABCDACefBACxy then output should be ACDefxy. Without using string functions
+
+
+
+
+
+		1) Program to Set n bits from p position of a variable x;
+		2) Questions related last project at IMC on camera
+		3) I2C how and questions on arbitration on multi master and how Bus error occurs?
+		4) Function calling example and need to explain the location of arguments and Locals
+		5) How to tweak the .exe/.out/.elf and explain the compiler, how stuff works?
+		6) Questions on Bootloader , handlers, CPU exception vetor list etc
+		7) NOR vs NAND fLASH and what is XIP?
+		8) how do you avoid memory leakage?
+		9) FIQ vs other IRQ, can FIQ be nested??
+		10) Program to toggle particular positioned bit in 500th location in an SRAM
+		11) What happens when sleep is called from Interrupt context.
+		12) Some questions on c like linked list vs array, static vs volatile etc
+
+
+
+
+
+		1. find subset of numbers in a given series of no's which equals to the sum given. 
+		2. Write u r own strcpy function. 
+
+
+
+	1. How would you swap the address of two variables ?
+
+	2. Find the center of single linked list in a single traverse?
+
+	3. Find the sub array that holds the largest sum value in a given array ?
+
+	4. Procedure of code flow from the board power up.
+
+	5. Write a structure to pack the given data packet .
+
+	Bitwise set, reset and toggle
+		
+	  Set/Reset a range of bits (range reset) like reset bits from position 2 to 5.
+		
+	what is a volatile variable
+		
+	> 4.       show memory structure
+		
+	> 5.       where is volatile stored
+		
+	> 6.       slicing a string
+		
+	> 7.       Finding repetitions of characters and words in a string
+		
+	> 8.       removing repetitions of characters and words in a string
+		
+	> 9.       Explain different data structures
+		
+	> 10.   Which data structure is mutable/ immutable
+		
+	> 11.   Which is another immutable data structure other than tupple
+		
+	> 12.   Explain oops concepts with real time examples
+		
+	> 13.   Write C code to read and write to an external memory at location 0x8000
+		
+	> 14.   Why did you choose Threadx in your previous project
+		
+	> 15.   Explain socket programming and how to do it.
+		
+	> 16.   Explain ISR concept and hoe to implement it
+		
+	> 17.   ARM processor related questions
+		
+	> 18.   how to create events
+
+
+
+			1. Write a function to set a particular bit
+			2. Write a function to clear a particular bit
+			3. What is structure padding?
+			4. How to avoid padding?
+			5. Write a program to reverse a string
+			6. Write a proram which will check the endianness of a system
+			7. Questions related my work of Camera driver project
+			8. What will be your approach to debug a program
+
+
+
+
+		1. data structures comfort level.
+		2. Difference between class and structure
+		3. Question on run time polymorphism 
+		4. What information does object file contains.
+		5. Question related to GDB ( Debbuging How to do backtracing)
+		6. Design pattern ( Singelton ) need to implement it
+		7. Difference between composition and inheritance and aggregation
+		8. how will you find the endian-ness of system ( difference between littile endian and big endian)
+		9. Basic knowledge of constructor and destructor.
+		10. How vitrual table work. How to make class abstract in c++
+			
+
+
+
+	"1. Write a c program to reverse the words in a string, for e.g ""This is a string          "" should become ""siht si a gnirts              "" without using string reverse function"								
+	"2. Consider the below picture and wite a c program to read byte by byte from 0x80000000 moving down and from 0x80001000 moving up. Exor both byes and if the output is ""1"", set MSB of 0x80000000 or if ""0"" set MSB of 0x80001000 as ""1"" and continue the process till both ends meet."								
+										
+										
+										
+									0x80000000
+										
+										
+									0x80001000
+										
+										
+										
+										
+										
+
+	Note : Questions related to the programming style used, regarding the functions used, their prototyping								
+										
+	3. There is a 100 floor building and a bucket full of eggs. If the eggs can be thown down from any floor to check, how many attemps will it take to find out from which floor onwads throwing down the eggs will break them. Find out without using the same egg twice? Also if there are only two eggs in the basket and if the eggs can be reused, similarly find out from which floor onwards the eggs would break.								
+										
+
+
+
+	1) In a multithread environment, for e.g wih three threads, if two of the threads are of equal priority and one thred is of higher priority and if all the threads are controlled with a binary semaphore,what are ther possible issues that may come up in its operation.
+		
+	2) Similar to a HAL(Hardware abstraction layer), what are the considerations you will make for writing a os abstraction layer, i.e the below lying operating system could be anything, but OS abstraction layer should give a common interface to the layer above. What are the considerations to be made in the design
+		
+	3) In a linked list with 3 nodes, if there is a pointer in each node which points to a memory area of dynamic size. Suppose we want to remove the center element, what are the considerations to be made? 
+		
+
+		3yrs exp guy
+
+	1. Tell me about the technical side of your career.	
+	2. (From Resume) Have you used I2C protocol? What are the two lines of I2C protocol?	
+	3. Explain I2C protocol in detail?	
+	4. Do you have experience working with ARM processors?	
+	5. Have you worked on porting an RTOS across different platforms?	
+	6. Have you used inter-process synchronization (IPS) & inter-process communication (IPC) in your RTOS based projects?	
+	7. How was IPS & IPC techniques useful for your projects?	
+	8. (From Resume) What exactly was your role in developing 'database memory management system' in the partticular project?	
+	9. (From Resume) Give an instance where you gave new solutions that favored your team/project.	
+	10. Given only timer resource, can you think of the steps that may be involved in designing an RTOS scheduler?	
+	    Feel free to use any scheduling policy and technique of your choice.	
+	11. (From Resume) What different kinds of hardware test equipment have you used?	
+	12. Give me an instance which demonstrates your ability to explore new concepts in a short period of time.	
+			
+
+
+	1) Explain your project briefly.
+	2) Do you have knowledge on sorting methods.write the program for ascending order using any of the sorting method.
+	3) Which sorting method is better and quicker.
+	4) What is the difference between macro and inline function.
+	5) Explain execution(stack) of inline function.
+	6) Explain about memory management.
+	7) Write the program to find the highest element in the array and subtract highest element with all the elements in the array like that continue up to 6 iterations.
+	8) D/W malloc and calloc
+	9) Write the program to allocate the memory dynamically(malloc) for **ptr[6];
+	10) Allocate memory dynamically for two dimensional arrays.
+	11) Write the program to find the number of 1's in the char.
+	12) Explain the compilation procedure.
+
+
+
+
+
+
+			S.No	Questions
+
+			1	How will you multiply a number by 6 without using multiplication(*) operation
+			2	Swap two numbers without using temp variable and +/- operator
+			3	Write any sorting algorithm in C (I wrote bubble sort and explained)
+			4	What is a Volatile variable? Explain any use case of it.
+			5	"What are the storage classes in C. What is ""Auto""?. Is it applicable to global variables too?"
+			6	Count the number of bits set in a given variable
+			7	What is structure padding
+			8	What is unaligned access. How it impacts the performance.
+			9	There is a 32 bit register named A. I could access the same with A.L and A.H to access it as two 16 bit registers. How to implement this concept in C.
+			10	Memory layout. About data segment and BSS. Internals of this. When the variables in BSS will get initialized.
+			11	const int *a, int const *a, and int * const a.  What is the difference between all these. Explain.
+			12	"Is it possible placing a ""Static"" variable in a structure."
+			13	How to add two 64 bit numbers using 32 bit variables? How to find whether carry is set or not when u don’t have a carry bit status info.
+			14	How negative numbers will be stored in a variable. What is 0x80000000? Why the range of negative number is more than possitive number.
+			15	"int *x = 0x80000000;
+*x = 0xDADA0000;   /* The value of *x will be either 0xDADA0000 or 0xDADA0001  always */
+..
+..
+..
+..
+If(*x = 0xDADA0000 || *x = 0xDADA0001)
+{
+  /* block A */
+}
+else
+{
+  /* block B  */
+}
+
+
+Will the code ever hit ""block B""?
+
+If ""Int *x = 0x80000000;"" is declared as ""volatile int *x = 0x80000000;"" is there any situation it will hit ""block B""
+
+"
+
+		1	Print a Binary representation of given number
+		2	Multiply a number with 3.5 without using *,/,% operators.
+		3	There is an unsorted array given which contains series of numbers from 1…N ,one number is missing in series and one number is repeated.Find the repeated number.
+		4	Rotate the  array from right to left by K elements, where N is the number of elements in array.
+			ex:input-10,20,30,15,27,39,36,48 and k=3 output:39,36,48,10,20,30,15,27
+		5	There are 25 horses participating in race.Find out minimum number of races required to find out top 3 horses.
+			condition1:Number of race lines available is 5.
+			condition2:There is no timer to notedown timings.
+
+
+
+
+
+
+			1	Sorting array with elements in Positive and negative numbers		
+			2	Multipy number with 3.5  with out arthmatic operators		
+			3	Algorithm - to find 3 top horses in horse racing team of 25 in 4 rows.		
+			4	One more array 		related question
+
+
+
+
+
+
+	1.       Factorial using recursive
+	2.       Any sorting algorithm and program.
+	3.       Arr with zeros and ones should sort with zeros starting and ones at end.
+	4.       Aptitude question divide 45 into four parts such that each part is divide, multiplied, subtracted , or added result will be same
+
+
+
+
+
+
+		1.       If same header file is included multiple times, will it compile, if it doesn’t then how to solve it.	
+		2.       Exchange 19th and 10th bit in a number.	
+		3.       Write a generic program which can add anything you send.(int, char, float etc).	
+		4.       There is a register in Memory location 0x8000h. In that memory location, there is a 32 bit number. Access that and set it.	
+				
+		Technically they asked only 4 questions. Rest all related to my project and on my domain.	
+				
+
+
+			He asked me only 2 questions. Rest all he wanted to know on what I have worked.  He didn’t even ask questions on C
+			He was more interested for people who have touch on embedded system, Real Time operating systems , Microcontroller . 
+
+
+		
+	1. About the experience. - Answered about the experience with Intel(from Aricent), ST Ericsson(from Aricent) and before that 3 years with Mindteck. Altogether 9 years.
+	2. How to find size of a structure without using 'size of' operator.
+	        - Found one solution, then the person asked me to provide another logic.
+	        - Found a 2nd solution, the person asked me for a 3rd one
+	        - Gave the 3rd solution.
+	3. linked list - how to find the nth node from the end - Found the solution
+	4. linked list - how to find the merging point if two linked list merge together at some point - Found the solution
+	5. two integers, x and y, and two positions i and j. j-i bits of y(from LSB) to be inserted at the position from i to j of x. - Found the solution, wrote the program
+	6. storage classes, how process address space segments, when the memory is allocated for each storage class - Gave the answer.
+	7. how the function call in a program is implemented by the compiler. - Gave the answer.
+	8. what is the size of the structure(he declared a structure) with different type of members - Gave the answer
+	9. Justify the 8th question's answer - Gave the answer 'because of structure padding'
+	10. Why structure padding is required - Gave the answer 'to minimize memory fetch cycles'
+	11. What is re- entrant functions - Gave the answer
+	12. What is semaphore and mutex, what is the difference between them - Gave the answer.
+		
+	There are 3 questions which I couldnt answer properly.
+	1. swap tow integers x and y without using a 3rd vriable and without using any arithmetic operations - I was trying the XOR way, but was taking long time. So he went on to next question.
+	2. what are bit fields -  could answer this, but the person defined a structure with bit field and assigned a value. Then he asked for the value of each bit field variable in that structure. Not sure the answer given is correct or not as I have not worked much on bit fields.
+	3. How big endian and little endian is represented in the memory with an exmaple - not sure the answer given is correct or not.
+		
+
+
+
+
+
+		·         Explain about your project and your contribution
+		·         Questions related to my project, like how you used Semaphore and Mutex.
+		·         How did you debug a problem with Thread Hang related problems.
+		·         How to use counting semaphore with 5KB resource and 6 threads in waiting(Each thread should get only 1 KB at a time).
+		·         Write a program to swap two variables(Any method we can use)
+		·         Write a program to compare two strings without library functions.
+		·         Write an Algo to print even and odd numbers on two different threads.(0,1,2,3..10)
+			
+
+			
+		1) Write an Algo to print even and odd numbers on two different threads.(0,1,2,3..10)
+			
+		#include<stdio.h>
+		#include<pthread.h>
+			
+			
+		pthread_mutex_t lock=PTHREAD_MUTEX_INITIALIZER;
+		pthread_cond_t cond=PTHREAD_COND_INITIALIZER;
+			
+		int flag = 0;
+			
+		void *printEvenFnPointer(void *parameters);
+		void *printOddFnPointer(void *parameters);
+		                
+		int main()
+		{
+		                pthread_t evenTid,oddTid;
+		                
+		                pthread_create(&evenTid,NULL,printEvenFnPointer,NULL);
+		                
+		                pthread_create(&oddTid,NULL,printOddFnPointer,NULL);
+		                
+		                pthread_exit(NULL);
+		                
+		                return(0);
+		                
+		}
+			
+		void *printEvenFnPointer(void *parameters)
+		{
+		int x=0;
+		int i;
+		                for(i=0;i<20;i++)
+		                {
+		                                pthread_mutex_lock(&lock);
+		                                if(flag==1)
+		                                                pthread_cond_wait(&cond,&lock);
+		"                                printf(""%d "",x);"
+		                                x=x+2;
+		                                flag=1;
+		                                
+		                                pthread_cond_signal(&cond);
+		                                pthread_mutex_unlock(&lock);
+		                }
+		}
+			
+		void *printOddFnPointer(void *parameters)
+		{
+		int x=1;
+		int i;
+		                for(i=0;i<20;i++)
+		                {
+		                                pthread_mutex_lock(&lock);
+		                                if(flag==0)
+		                                                pthread_cond_wait(&cond,&lock);
+		"                                printf(""%d "",x);"
+		                                x=x+2;
+		                                flag=0;
+		                                
+		                                pthread_mutex_unlock(&lock);
+		                                pthread_cond_signal(&cond);
+		                }
+		}              
+			
+		2)  Write a program to swap two variables(Any method we can use)
+			
+		void swap( VariableType *a, VariableType *b)
+		{
+		                VariableType temp = *a;
+		                *a = *b;
+		                *b = temp;
+		}
+			
+			
+			
+		3) Write a program to compare two strings without library functions.
+			
+		Zero for mismatch else +ve or negative as per last mismatch.
+		#include <stdio.h>
+			
+		int str_compare(char * str1, char * str2)
+		{
+		                while(*str1 != '\0' && *str2 != '\0')
+		                {
+		                                if(*str1 == *str2)
+		                                {
+		                                                str1++;
+		                                                str2++;
+		                                }else
+		                                {
+		                                                return(*str1 - *str2);
+		                                }
+		                                
+		                }
+		                return(*str1 - *str2);      
+		}
+			
+		int main(void) {
+		                // your code goes here
+		                
+		"                printf(""%d"",str_compare(""Mynam"",""Mynam""));"
+		                return 0;
+		}
+			
+		4)How to use counting semaphore with 5KB resource and 6 threads in waiting(Each thread should get only 1 KB at a time).
+			
+		The max value that a counting semaphore can take is the the number of processes you want to allow into the critical section at the same time.
+		Again, you might have a case where you want exclusion over a certain resource, yet you know this resource can be accessed by a max number of processes (say X), so you set a counting semaphore with the value X.
+			
+		This would allow the X processes to access that resource at the same time; yet the process X+1 would have to wait till one of the processes in the critical section gets out.
+			
+		Ref: http://www.chibios.org/dokuwiki/doku.php?id=chibios:articles:semaphores_mutexes
+			
+
+
+	1.       About my project, and questions related to the implementations. (10 min)
+		
+	2.       C Questions:
+	a.       What is Ternary operator? What is the alternative way to achieving it. 
+	b.      If we have structure defined with different datatypes (UINT16, UINT8, UINT32), Is this require to rearrange the definitions ?
+	c.       Where do we store global variables, local variables ?
+	d.      What all kind memory allocation used in your projects?
+	e.      How do you find the free space in RAM memory?
+		
+	3.       Other Questions:
+	a.       If we have Three different processor, and a packet forwarding from one process to other process, How do you find the timestamp?
+	b.      When interrupt occurs, what will happen?
+	c.       Do we need Operating System to for interrupt?
+		
+1) Asked about my projects.
+2) GSM Call flow.
+3) how to find the maximum sum of sub array elements.
+4) pointer and reference
+5)  how to find the free space in Stack.
+6) how to exchange bits in a number say 10th and 12th bit.
+7) how to find the remainder when divided by 8 using bitwise.
+	
+2nd Interview by Vishwas
+	
+1) Projects details.
+2) question on registers
+3) macro vs function
+4) question on Padding, structure alignment
+5) difference between char *str & char str[]
+1. Binary search
+2. Linked List
+3. What is the use of PCIe in your project
+4. What is the use of SATA
+5. What is the size of SATA
+6. How many types of datatypes in python.
+7. Difference in all datatypes
+8. What you'll prefer to use
+9. List , tuples, dictionary can be declare in dictionary
+10. What is the use of NAND in your project
+11. How you flash the image
+12. What is the protocol analyzer
+13. How you are using protocol analyzer in your project
+14. What is diffrent issue you faced for protocol analyzer
+15. Which all layer you worked in USB complaince
+16. What is the difficult faced in your project.
+17. In which language your framework is written
+	MML team
+		
+	1. About the experience. - Answered about the experience with Intel(from Aricent), ST Ericsson(from Aricent) and before that 3 years with Mindteck. Altogether 9 years.
+	2. How to find size of a structure without using 'size of' operator.
+	        - Found one solution, then the person asked me to provide another logic.
+	        - Found a 2nd solution, the person asked me for a 3rd one
+	        - Gave the 3rd solution.
+	3. linked list - how to find the nth node from the end - Found the solution
+	4. linked list - how to find the merging point if two linked list merge together at some point - Found the solution
+	5. two integers, x and y, and two positions i and j. j-i bits of y(from LSB) to be inserted at the position from i to j of x. - Found the solution, wrote the program
+	6. storage classes, how process address space segments, when the memory is allocated for each storage class - Gave the answer.
+	7. how the function call in a program is implemented by the compiler. - Gave the answer.
+	8. what is the size of the structure(he declared a structure) with different type of members - Gave the answer
+	9. Justify the 8th question's answer - Gave the answer 'because of structure padding'
+	10. Why structure padding is required - Gave the answer 'to minimize memory fetch cycles'
+	11. What is re- entrant functions - Gave the answer
+	12. What is semaphore and mutex, what is the difference between them - Gave the answer.
+		
+	There are 3 questions which I couldnt answer properly.
+	1. swap tow integers x and y without using a 3rd vriable and without using any arithmetic operations - I was trying the XOR way, but was taking long time. So he went on to next question.
+	2. what are bit fields -  could answer this, but the person defined a structure with bit field and assigned a value. Then he asked for the value of each bit field variable in that structure. Not sure the answer given is correct or not as I have not worked much on bit fields.
+	3. How big endian and little endian is represented in the memory with an exmaple - not sure the answer given is correct or not.
+		
+
+
+	Different storage classes
+	Write a program to find number of setbits
+	Gave a program and asked to find output of that program
+	Audio codec - Explain synthesis filter
+	Audio codec - Different optimization techniques used
+	D/b static function and static variable
+	What is volatile keyword and why it is used?
+	Sort linked list
+	write a program to count number of 'a's in given string considering all possible error scenarios 
+	Explain inline and macro
+	Pros and cons of using inline and macros
+	Disadvantages of having more program memory
+	Different ways of writing infinite loop
+
+		Memory Organization in C.				
+
+		Write assembly program for following C Code				
+		Int a;				
+		int a =10;				
+		int *ptr = &a;				
+
+		gave a small code with global variables, static, local, both initialized and uninitialized				
+		Asked me where the variables are stored.				
+
+		implement Segmentation fault/ abort.				write a program. 
+
+		Implement Heap Overflow. Write a program				
+
+		Implement stack overflow. Write a program				
+
+		Questions on multi core implentation, sychronization techinques.				
+
+		How to change the memory layout of a C program where to you configure.				
+
+		How ping pong buffer work				
+
+		How to initialize 512 bytes from bit stream in one shot to the codec variables				
+
+		Write a program to create a memory leak.				
+
+		Questions are based on my answers and they go deep 				
+
+		Explain a project where you worked on Multicore your role and responsibility.				
+							
+
+			python
+		1.       Difference between range and xrange.	
+		2.       Write a program to get a list without duplicate values and list should be arranged in Descending order when two lists with duplicate values is given as input.	
+		a.       Note: Should not use any in built library functions.	
+		3.       Write a program to show three to four ways of swapping variables without using a third variable.	
+		4.       Write a program to get a list which has all UPPERCASE words , another list which has all lowercase words and final list which as mix of upper and lowercase words from a given File. 	
+		a.       Note: Should not use in built library functions	
+		5.       Questions regarding previous projects. 	
+
+
+		c program to Find Max of array. 1st max, 2ed max, 3ed max …
+		c prog to Sort Array contains 0 or 1 ex input 01100110000 output 00000001111
+		Find m/c is big endian or little endian.
+		divide number by 32 without divde oprator
+		swap number without temp var, +, - ect.
+		sorting algo.
+		Storage class in C.
+		What is volatile ?
+		what is bss and data segment ?
+		Why static var is not initlized twice ?
+
+
+
+
+			What is Volatile & its use?
+			Set a bit in the given memory address
+			write your own strcmp 
+			structure vs Union
+			"difference between char *a =""hello""    and char b[] = ""hello"""
+
+
+		1. Write a logic to  for negation of 4th bit.
+		2. You have been given a flash that is partially written, you have to find out the next location to write.
+		3. What is the use of static ? Tell the practical example for it.
+		4. Write a progaram to swap 13th bit to 19th bit.
+		5. Write a program to find the remainder after dividing by 16 without using mod and division operator ?
+		6.  You have been given a array of size 10, you have to write on 4th location without normal array operation.
+		7. You have been given two object of same material but different weight. You have to find which one is heavier.
+		8. In a box there are 10 black socks and 10 white socks. In how many minimum attempt, can you find exact pair of socks ?
+			
+		Note : Apart from this,  they asked about my current project and previous project.
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+				source coding 
+				channel coding
+				CRC ,
+				parity check
+				error correction 
+				ARM9 register set
+				AP CP comm methods
+				how SHM can be informed to program
+				RTOS concepts 
+				IPC 
+				write program to explain shm to be used by 2 processes
+				how shm to be used by 2 processes without mutex
+				spinlock
+				system level audio architecture to be existing across AP and CP sides
+				how voice call be involved in ap side 
+				android communication and thin clients in audio flow
+				IPC used in android
+				emergency call scenario system level diagram and which module gets executed where (ap-cp sides)
+				cache coherence
+				optmizations methods like loop unrolling
+				at which time loop unrolling be decided..factors influencing it
+				at which time assembly need to be used and how to perform it
+				multimedia framework architecture
+				why compression is necessary
+				kernel
+				kernel and user space communcations
+				num of 1's in a num
+				circular double linked list
+
+
+
+			About my previous projects. - Answer: explained all my previous projects which I used NAND flash with block diagram
+			NAND flash Array organization
+			NAND flash Read, write, Internal move sequence.
+			Explain NAND flash Addrerssing (5 bytes Addressing)
+			I2C operation - read, write and reset
+			I2C - two i2c slave devices of same address connected on same interface. What is the behaviour?
+			how to correct heap memory
+			What is the output of this program?
+			int* fun()
+			{
+			    int p;
+			    p = 10;
+			    return &p;
+			}
+			int main()
+			{
+			    int *val;
+			    val = fun();
+			"   printf(""value:%d\n"",val);"
+			    return 0;
+			}
+			what are the memory related issues face in previous project
+			Flash File system
+
+
+
+		About Hardware debugging experience in previous projects.
+		How to develop HAL in driver layer
+		In 1MB, ond byte is 0x01, program to find the byte address.
+		In 32 bit system, print the 3rd byte in the given address.
+		Function pointer, call backs.
+		mutex and semaphores.
+		Structure, union, structure padding and structure packing
+		Difference between int p[10] and int *p = malloc(10);
+		Details of the micro controller worked previously.
+		Searching and sorting algorithm.
+		memory layout
+		bitwise operators and shift operation without using shift operators.
+		memcpy, memset
+
+		Note : 
+		1. expected to use bit, bytes instead of fundamental datatypes.
+		2. Should not use string lib.
